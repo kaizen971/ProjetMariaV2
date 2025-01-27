@@ -103,7 +103,7 @@ function Home() {
           <li><a href="#apropos" onClick={handleNavLinkClick}>À propos</a></li>
           <li><a href="#parcours" onClick={handleNavLinkClick}>Mon parcours</a></li>
           <li><a href="#competences" onClick={handleNavLinkClick}>Mes compétences</a></li>
-          <li><a href="/ProjetMariaV2/projets" onClick={handleNavLinkClick}>Mes projets</a></li>
+          <li><a href="/projets" onClick={handleNavLinkClick}>Mes projets</a></li>
           <li><a href="#contact" onClick={handleNavLinkClick}>Contact</a></li>
 
         </ul>
@@ -241,7 +241,7 @@ function Home() {
             <a href="#apropos">À propos</a>
             <a href="#parcours">Mon parcours</a>
             <a href="#competences">Mes compétences</a>
-            <a href="/ProjetMaria/projets">Mes projets</a>
+            <a href="/projets">Mes projets</a>
             <a href="#contact">Contact</a>
           </nav>
           <div className="footer-social">

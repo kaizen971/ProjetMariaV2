@@ -167,7 +167,7 @@ function ProjetDetail() {
           <li><a href="/#apropos">À propos</a></li>
           <li><a href="/#parcours">Mon parcours</a></li>
           <li><a href="/#competences">Mes compétences</a></li>
-          <li><a href="/ProjetMaria/projets">Mes projets</a></li>
+          <li><a href="/projets">Mes projets</a></li>
           <li><a href="/#contact">Contact</a></li>
         </ul>
       </nav>
