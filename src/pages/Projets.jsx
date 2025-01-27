@@ -1,13 +1,11 @@
-import Projet1 from '../assets/Maria.png' // À remplacer par vos images
-import Projet2 from '../assets/Maria.png'
-import Projet3 from '../assets/Maria.png'
+
 import Maria from '../assets/Maria.png'
 import Peluche from '../assets/projets/Peluche.png'
 import CleanKing from '../assets/projets/CleanKing.png'
 import ExplorEarth from '../assets/projets/Explor-Earth.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import SmartHome from '../assets/projets/SmartHome.png'
+import SmartHome from '../assets/projets/smartHome.png'
 import { useState } from 'react';
 import '../App.css'
 import './Projets.css'
