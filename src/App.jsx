@@ -16,6 +16,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Projets from './pages/Projets'
 import ProjetDetail from './pages/ProjetDetail'
 
+
 function App() {
   return (
     <Router basename="/ProjetMariaV2">
@@ -106,7 +107,7 @@ function Home() {
           <li><a href="#apropos" onClick={handleNavLinkClick}>À propos</a></li>
           <li><a href="#parcours" onClick={handleNavLinkClick}>Mon parcours</a></li>
           <li><a href="#competences" onClick={handleNavLinkClick}>Mes compétences</a></li>
-          <li><a href="/ProjetMaria/projets" onClick={handleNavLinkClick}>Mes projets</a></li>
+          <li><a href="/projets" onClick={handleNavLinkClick}>Mes projets</a></li>
           <li><a href="#contact" onClick={handleNavLinkClick}>Contact</a></li>
         </ul>
       </nav> 
