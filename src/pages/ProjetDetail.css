@@ -1,0 +1,252 @@
+.projet-detail-content {
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.projet-description-paragraph {
+  margin-bottom: 1.5rem;
+  text-align: justify;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.projet-description-paragraph strong {
+  color: #a9dff8;
+  font-weight: 600;
+}
+
+.title-description {
+  color: #a9dff8;
+  font-weight: 700; /* Augmenté pour un effet de surlignage plus prononcé */
+  font-size: 2rem; /* Taille de police augmentée */
+  margin-bottom: 1rem;
+  text-align: left; 
+  text-decoration: underline;
+  text-decoration-color: #f8a5a5;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 10px;
+  
+}
+
+.section-container {
+  padding-top: 80px;
+}
+
+.missions-section {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.mission-category {
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.mission-category:hover {
+  transform: translateY(-5px);
+}
+
+.mission-category h3 {
+  color: #a9dff8;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  border-bottom: 2px solid #f8a5a5;
+  padding-bottom: 8px;
+}
+
+.mission-category ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.mission-category li {
+  margin-bottom: 0.8rem;
+  padding-left: 20px;
+  position: relative;
+}
+
+.mission-category li::before {
+  content: "•";
+  color: #f8a5a5;
+  position: absolute;
+  left: 0;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .missions-section {
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
+  
+  .mission-category {
+    margin-bottom: 15px;
+  }
+}
+
+.video-container {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin-top: 20px;
+}
+
+.video-container video {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  justify-content: left;
+  align-items: left;
+}
+
+.projet-detail-page {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-content-about {
+  width: 100%;
+}
+
+.projet-detail-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+  
+}
+
+.projet-image {
+
+    
+}
+
+.projet-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.projet-theme {
+  font-size: 1.2rem;
+  color: #f8a5a5;
+  margin: 1rem 0;
+}
+
+
+
+@media (max-width: 768px) {
+  .projet-detail-page {
+    padding: 0 10px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .title-description {
+    font-size: 1.5rem;
+  }
+
+  .projet-description-paragraph {
+    font-size: 1rem;
+  }
+
+  .projet-theme {
+    font-size: 1.1rem;
+  }
+
+  .video-container video {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .title-description {
+    font-size: 1.3rem;
+  }
+
+  .projet-description-paragraph {
+    font-size: 0.9rem;
+  }
+
+  .mission-category {
+    padding: 15px;
+  }
+
+  .mission-category h3 {
+    font-size: 1.1rem;
+  }
+
+  .mission-category li {
+    font-size: 0.9rem;
+  }
+}
+
+/* Ajout d'un style pour les écrans plus larges */
+@media (min-width: 1024px) {
+  .projet-detail-container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .projet-image {
+    flex: 0 0 45%;
+    margin: 0;
+  }
+
+  .projet-detail-content {
+    flex: 0 0 55%;
+  }
+}
+
+/* Amélioration de la navigation responsive */
+.navbar {
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
