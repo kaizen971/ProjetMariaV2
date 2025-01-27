@@ -1,4 +1,3 @@
-
 import Maria from '../assets/Maria.png'
 import Peluche from '../assets/projets/Peluche.png'
 import CleanKing from '../assets/projets/CleanKing.png'
@@ -53,12 +52,12 @@ function Projets() {
           <FontAwesomeIcon icon={faBars} />
         </div>
         <ul className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
-          <li><a href="/">Accueil</a></li>
-          <li><a href="/#apropos">À propos</a></li>
-          <li><a href="/#parcours">Mon parcours</a></li>
-          <li><a href="/#competences">Mes compétences</a></li>
-          <li><a href="/ProjetMaria/projets">Mes projets</a></li>
-          <li><a href="/#contact">Contact</a></li>
+          <li><Link to="/">Accueil</Link></li>
+          <li><Link to="/#apropos">À propos</Link></li>
+          <li><Link to="/#parcours">Mon parcours</Link></li>
+          <li><Link to="/#competences">Mes compétences</Link></li>
+          <li><Link to="/projets">Mes projets</Link></li>
+          <li><Link to="/#contact">Contact</Link></li>
         </ul>
       </nav>
 
@@ -81,7 +80,7 @@ function Projets() {
               <div className="projet-info">
                 <h3>{item.title}</h3>
                 <Link 
-                  to={`/ProjetMaria/projet/${encodeURIComponent(item.title)}`} 
+                  to={`/projet/${encodeURIComponent(item.title)}`} 
                   className="en-savoir-plus"
                 >
                   EN SAVOIR PLUS
