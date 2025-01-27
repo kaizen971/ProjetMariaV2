@@ -5,7 +5,7 @@ import CleanKing from '../assets/projets/CleanKing.png'
 import ExplorEarth from '../assets/projets/Explor-Earth.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import SmartHome from '../assets/projets/SmartHome.png'
+import SmartHome from '../assets/projets/SmartHomeV2.png'
 import { useState } from 'react';
 import '../App.css'
 import './Projets.css'

@@ -6,7 +6,7 @@ import { useState } from 'react';
 import Peluche from '../assets/projets/Peluche.png'
 import CleanKing from '../assets/projets/CleanKing.png'
 import ExplorEarth from '../assets/projets/Explor-Earth.png'
-import SmartHome from '../assets/projets/SmartHome.png'
+import SmartHome from '../assets/projets/SmartHomeV2.png'
 
 import './ProjetDetail.css'
 
