@@ -18,7 +18,7 @@ import ProjetDetail from './pages/ProjetDetail'
 
 function App() {
   return (
-    <Router basename="/ProjetMaria">
+    <Router basename="/ProjetMariaV2">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projets" element={<Projets />} />
