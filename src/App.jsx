@@ -24,6 +24,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/projets" element={<Projets />} />
         <Route path="/projet/:title" element={<ProjetDetail />} />
+        <Route path="*" element={<h1>404 - Page Not Found</h1>} />
       </Routes>
     </Router>
   )
@@ -107,8 +108,9 @@ function Home() {
           <li><a href="#apropos" onClick={handleNavLinkClick}>À propos</a></li>
           <li><a href="#parcours" onClick={handleNavLinkClick}>Mon parcours</a></li>
           <li><a href="#competences" onClick={handleNavLinkClick}>Mes compétences</a></li>
-          <li><a href="/projets" onClick={handleNavLinkClick}>Mes projets</a></li>
+          <li><a href="/ProjetMariaV2/projets" onClick={handleNavLinkClick}>Mes projets</a></li>
           <li><a href="#contact" onClick={handleNavLinkClick}>Contact</a></li>
+
         </ul>
       </nav> 
 
@@ -210,7 +212,7 @@ function Home() {
             </div>
           </div>
         </section>
-        <section className="section-contact" id="contact">
+        <section className="section-carrousel" id="contact">
           {/* <img src={RoseBackgroundContact} alt="RoseBackgroundContact" className="rose-background-contact" /> */}
             <h2 className="section-title">Me contacter</h2>
             <p >N'hésitez pas à me contacter via ce formulaire ou sur mon profil LinkedIn</p>
