@@ -35,6 +35,5 @@
     "globals": "^15.14.0",
     "rimraf": "^6.0.1",
     "vite": "^6.0.5"
-  },
- "homepage": "https://kaizen971.github.io/ProjetMariaV2"
+  }
 }
