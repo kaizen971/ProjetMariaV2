@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+p {
+  color: #000000;
+}
+
 main {
   background-color: white;
 }
@@ -485,6 +489,8 @@ main {
   display: none;
   cursor: pointer;
   font-size: 1.5rem;
+  margin-right: 2rem;
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -538,6 +544,7 @@ main {
   .hamburger {
     display: block;
     color: #000000;
+    margin-right: 5rem;
   }
 
   .nav-links {
