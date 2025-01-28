@@ -204,7 +204,7 @@ function ProjetDetail() {
                       <h3>{category.charAt(0).toUpperCase() + category.slice(1).replace(/([A-Z])/g, ' $1')}</h3>
                       <ul>
                         {tasks.map((task, index) => (
-                          <li key={index}>{task}</li>
+                          <li className="mission-task" key={index}>{task}</li>
                         ))}
                       </ul>
                     </div>
