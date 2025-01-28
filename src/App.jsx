@@ -7,9 +7,10 @@ import Carrousel from './carrousel'
 import LinkedInIcon from './assets/linkedin.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route ,Link} from 'react-router-dom'
 import Projets from './pages/Projets'
 import ProjetDetail from './pages/ProjetDetail'
+import cvFile from './assets/cv_marie.pdf';
 
 
 function App() {
@@ -143,8 +144,14 @@ function Home() {
               et salons marketing</b> me permettront de répondre aux besoins de votre entreprise en pleine croissance.
             </p>
             <div className="section-text-button">
-              <button className="section-text-button-cv">Mon CV</button>
-              <button className="section-text-button-cv">Mes projets</button>
+              <a 
+                href={cvFile} 
+                download="CV_Marie_Anne_Lebogogo.pdf"
+                className="section-text-button-cv"
+              >
+                Mon CV
+              </a>
+              <Link to="/projets" className="section-text-button-cv">Mes projets</Link>
             </div>
           </div>
           <div className="section-content-image">

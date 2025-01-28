@@ -39,7 +39,7 @@ function ProjetDetail() {
           "Répartition des rôles au sein de l'équipe",
           "Utilisation d'outils de gestion de projet"
         ],
-        chefferieProjet: [
+        cheffeDeProjet: [
           "Coordination des actions entre les membres de l'équipe",
           "Validation des étapes clés du projet",
           "Planification et pilotage des deadlines"
